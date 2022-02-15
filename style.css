@@ -771,4 +771,40 @@ body {
 .rightsFooterIcons i:not(:last-child) {
   margin-right: 8px;
 }
+
+.new--arrivals {
+  height: 148px;
+  background-color: #f8f3f4;
+}
+
+.new--arrivals .content--new_arrivals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.new--arrivals .content--new_arrivals h2 {
+  margin: 65px 0;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 0.83;
+  color: #f16d7f;
+}
+
+.new--arrivals .content--new_arrivals p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.43;
+  color: #636363;
+  margin: 69px 0;
+  text-transform: uppercase;
+}
+
+.new--arrivals .content--new_arrivals p span {
+  font-weight: bold;
+  color: #f16d7f;
+}
 /*# sourceMappingURL=style.css.map */

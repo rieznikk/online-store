@@ -693,3 +693,67 @@ body {
 .rightsFooterIcons i:not(:last-child) {
     margin-right: 8px;
 }
+
+.new--arrivals {
+    height: 148px;
+    background-color: #f8f3f4;
+
+    .content--new_arrivals {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content--new_arrivals h2 {
+        margin: 65px 0;
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 0.83;
+        color: #f16d7f;
+    }
+
+    .content--new_arrivals p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.43;
+        color: #636363;
+        margin: 69px 0;
+        text-transform: uppercase;
+    }
+
+    .content--new_arrivals p span {
+        font-weight: bold;
+        color: #f16d7f;
+    }
+}
+
+// .on--hover_nav {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// .on--hover__nav_div {
+//     width: 75px;
+//     height: 3px;
+//     background-color: black;
+// }
+
+// .shopping--cart {
+//     margin-top: 90px;
+
+//     .name--of__table {
+//         display: flex;
+//         justify-content: space-between;
+//         text-transform: uppercase;
+//         font-size: 13px;
+//         font-weight: bold;
+//         line-height: 1.54;
+//         letter-spacing: -0.2px;
+//         color: #222;
+//     }
+
+//     .name--of__table p:nth-child(1) {
+//         margin-right: 300px;
+//     }
+
+// }
