@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping Card</title>
+    <title>Shopping Cart</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,7 +15,7 @@
 <body>
     <header class="header">
         <div class="container">
-            <a href="#" class="logo">BRAN<span class="wordDLogo">D</span></a>
+            <a href="index.html" class="logo">BRAN<span class="wordDLogo">D</span></a>
             <form class="formHeader" action="">
                 <div class="browseHeader">
                     Browse<i class="fas fa-caret-down"></i>
@@ -39,17 +39,7 @@
         <a href="#">Accoseriese</a>
         <a href="#">Featured</a>
         <a href="#">Hot Deals</a>
-
     </nav>
-    <!-- <div class="on--hover_nav">
-        <div class="on--hover__nav_div"></div>
-        <div class="on--hover__nav_div"></div>
-        <div class="on--hover__nav_div"></div>
-        <div class="on--hover__nav_div"></div>
-        <div class="on--hover__nav_div"></div>
-        <div class="on--hover__nav_div"></div>
-        <div class="on--hover__nav_div"></div>
-    </div> -->
     <div class="new--arrivals">
         <div class="container">
             <div class="content--new_arrivals">
@@ -58,43 +48,76 @@
             </div>
         </div>
     </div>
-    <!-- <div class="container">
-
-        <div class="shopping--cart">
-            <div class="name--of__table">
-                <p>Product Details</p>
-                <p>unite Price</p>
-                <p>Quantity</p>
-                <p>shipping</p>
-                <p>Subtotal</p>
-                <p>ACTION</p>
-            </div>
-            <hr>
-            <div class="shopping--cart__list">
-                <div class="cart--list__one">
-                    <div class="inside">
-                        <img src="img/shopping--card_one.png" alt="cart">
-                        <div class="shopping--cart__list_content">
-                            <div class="cart--list__name">
-                                Mango People T-shirt
-                            </div>
-                            <div class="cart--list__color">
-                                Color: Red
-                            </div>
-                            <div class="cart--list__size">
-                                Size: Xll
-                            </div>
-                        </div>
+    <div class="products--grid container">
+        <div class="products--grid__row">
+            <div class="products--grid--names">Product Details</div>
+            <div class="products--grid--names">unite Price</div>
+            <div class="products--grid--names">Quantity</div>
+            <div class="products--grid--names">shipping</div>
+            <div class="products--grid--names">Subtotal</div>
+            <div class="products--grid--names">ACTION</div>
+        </div>
+        <div class="products--grid__row">
+            <div class="product--details">
+                <img src="img/shopping--card_one.png" alt="cart">
+                <div class="product--specs__wrap">
+                    <div class="products--name">
+                        Mango People T-shirt
+                    </div>
+                    <div class="product--specs">
+                        Color: <span>Red</span>
+                        <br>
+                        Size: <span>Xll</span>
                     </div>
                 </div>
-                <hr>
-                <div class="cart--list__two"></div>
-                <hr>
-                <div class="cart--list__three"></div>
-                <hr>
             </div>
+            <div class="product--grid__unit">$150</div>
+            <div class="product--grid__unit"><input type="text" placeholder="2"></div>
+            <div class="product--grid__unit">FREE</div>
+            <div class="product--grid__unit">$300</div>
+            <div class="product--grid__unit"><i class="fa-solid fa-circle-xmark"></i></div>
         </div>
-    </div> -->
+        <div class="products--grid__row">
+            <div class="product--details">
+                <img src="img/shopping--card_two.png" alt="cart">
+                <div class="product--specs__wrap">
+                    <div class="products--name">
+                        Mango People T-shirt
+                    </div>
+                    <div class="product--specs">
+                        Color: <span>Red</span>
+                        <br>
+                        Size: <span>Xll</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product--grid__unit">$150</div>
+            <div class="product--grid__unit"><input type="text" placeholder="2"></div>
+            <div class="product--grid__unit">FREE</div>
+            <div class="product--grid__unit">$300</div>
+            <div class="product--grid__unit"><i class="fa-solid fa-circle-xmark"></i></div>
+        </div>
+        <div class="products--grid__row">
+            <div class="product--details">
+                <img src="img/shopping--card_three.png" alt="cart">
+                <div class="product--specs__wrap">
+                    <div class="products--name">
+                        Mango People T-shirt
+                    </div>
+                    <div class="product--specs">
+                        Color: <span>Red</span>
+                        <br>
+                        Size: <span>Xll</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product--grid__unit">$150</div>
+            <div class="product--grid__unit"><input type="text" placeholder="2"></div>
+            <div class="product--grid__unit">FREE</div>
+            <div class="product--grid__unit">$300</div>
+            <div class="product--grid__unit"><i class="fa-solid fa-circle-xmark"></i></div>
+        </div>
+    </div>
     <div class="reviewAndSubscribe">
         <div class="container">
             <div class="reviews">
@@ -129,7 +152,7 @@
             </div>
         </div>
     </div>
-    <div class="footer container">
+    <footer class="footer container">
         <div class="aboutBrand">
             <a href="" class="logo">BRAN<span class="wordDLogo">D</span></a>
             <div class="aboutBrandText">
@@ -179,7 +202,7 @@
                 <div><a href="#">Brows All</a></div>
             </div>
         </div>
-    </div>
+    </footer>
     <div class="rightsFooter">
         <div class="container">
             <div class="flexRights">
