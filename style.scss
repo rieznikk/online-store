@@ -818,3 +818,197 @@ body {
         font-size: 15px;
     }
 }
+
+.btn--shopping__cart {
+    margin-top: 44px;
+
+    .top--btn__shopping_cart {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top--btn__shopping_cart button {
+        width: 235px;
+        height: 50px;
+        border: solid 1px #eaeaea;
+        background-color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        color: #4a4a4a;
+        cursor: pointer;
+    }
+
+    .bottom--btn__shopping_cart {
+        margin-top: 63px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bottom--label {
+        font-size: 16px;
+        font-weight: bold;
+        color: #222;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+    }
+
+    .shipping--Address input {
+        width: 355px;
+        height: 45px;
+        border: solid 1px #eaeaea;
+        background-color: #fff;
+        outline: 0;
+        padding-left: 18px;
+        box-sizing: border-box;
+    }
+
+    .shipping--Address>input:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .bottom--label__btn {
+        width: 100px;
+        height: 35px;
+        border: solid 1px #eaeaea;
+        background-color: #fff;
+        font-size: 11px;
+        font-weight: bold;
+        color: #4a4a4a;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .shopping--cart__input::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        font-family: Lato;
+        font-size: 13px;
+        font-weight: 300;
+        color: #b1b1b1;
+        // padding: 18px 16px;
+        box-sizing: border-box;
+    }
+
+    .shopping--cart__input::-moz-placeholder {
+        /* Firefox 19+ */
+        font-family: Lato;
+        font-size: 13px;
+        font-weight: 300;
+        color: #b1b1b1;
+        // padding: 18px 16px;
+        box-sizing: border-box;
+    }
+
+    .shopping--cart__input:-ms-input-placeholder {
+        /* IE 10+ */
+        font-family: Lato;
+        font-size: 13px;
+        font-weight: 300;
+        color: #b1b1b1;
+        // padding: 18px 16px;
+        box-sizing: border-box;
+    }
+
+    .shopping--cart__input:-moz-placeholder {
+        /* Firefox 18- */
+        font-family: Lato;
+        font-size: 13px;
+        font-weight: 300;
+        color: #b1b1b1;
+        // padding: 18px 16px;
+        box-sizing: border-box;
+    }
+
+    .about--btn__shopping_cart {
+        font-size: 14px;
+        font-weight: 300;
+        color: #000;
+        margin-top: 28px;
+    }
+
+    .coupon--discount input {
+        width: 355px;
+        height: 45px;
+        border: solid 1px #eaeaea;
+        background-color: #fff;
+        margin-top: 24px;
+        outline: 0;
+        padding-left: 18px;
+        box-sizing: border-box;
+    }
+
+    .coupon--discount button {
+        margin-top: 25px;
+        width: 118px;
+        height: 35px;
+        border: solid 1px #eaeaea;
+        background-color: #fff;
+        font-size: 11px;
+        font-weight: bold;
+        color: #4a4a4a;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .checkout {
+        width: 360px;
+        height: 227px;
+        background-color: #f5f3f3;
+    }
+
+    .total {
+        padding: 40px 42px 22px 43px;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
+    .total--Top {
+        font-size: 11px;
+        color: #4a4a4a;
+    }
+
+    .total--Bottom {
+        font-size: 16px;
+        font-weight: bold;
+        color: #222;
+        margin-top: 14px;
+    }
+
+    .total--Top span {
+        margin-left: 15px;
+    }
+
+    .total--Bottom span {
+        margin-left: 15px;
+    }
+
+    .checkout button {
+        width: 273px;
+        height: 50px;
+        background-color: #f16d7f;
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .btn--checkout {
+        display: flex;
+        justify-content: center;
+        margin-top: 17px;
+    }
+
+    .line--checkout {
+        width: 275px;
+        height: 1px;
+        background-color: #e2e2e2;
+    }
+
+    .line--checkout__flex {
+        display: flex;
+        justify-content: center;
+    }
+
+}
