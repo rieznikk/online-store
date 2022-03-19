@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">BRAN<span class="wordDLogo">D</span></a>
+            <form class="formHeader" action="">
+                <div class="browseHeader">
+                    Browse<i class="fas fa-caret-down"></i>
+                </div>
+                <input type="text" placeholder="Search for Item...">
+                <button>
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <a href="/shopping--cart.html" class="cart--Link"><img src="img/cart.png" alt="cart" class="cartHead"></a>
+            <button class="accountBtn">
+                My Account<i class="fas fa-caret-down"></i>
+            </button>
+        </div>
+    </header>
+    <nav class="topNav">
+        <a href="#">Home</a>
+        <a href="#">Man</a>
+        <a href="#">Woman</a>
+        <a href="#">Kids</a>
+        <a href="#">Accoseriese</a>
+        <a href="#">Featured</a>
+        <a href="#">Hot Deals</a>
+    </nav>
+    <div class="new--arrivals">
+        <div class="container">
+            <div class="content--new_arrivals">
+                <h2>New Arrivals</h2>
+                <p>Home / Men /<span> New Arrivals</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="products--grid container">
+        <div class="products--grid__row">
+            <div class="products--grid--names">Product Details</div>
+            <div class="products--grid--names">unite Price</div>
+            <div class="products--grid--names">Quantity</div>
+            <div class="products--grid--names">shipping</div>
+            <div class="products--grid--names">Subtotal</div>
+            <div class="products--grid--names">ACTION</div>
+        </div>
+        <div class="products--grid__row">
+            <div class="product--details">
+                <img src="img/shopping--card_one.png" alt="cart">
+                <div class="product--specs__wrap">
+                    <div class="products--name">
+                        Mango People T-shirt
+                    </div>
+                    <div class="product--specs">
+                        Color: <span>Red</span>
+                        <br>
+                        Size: <span>Xll</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product--grid__unit">$150</div>
+            <div class="product--grid__unit"><input type="text" placeholder="2"></div>
+            <div class="product--grid__unit">FREE</div>
+            <div class="product--grid__unit">$300</div>
+            <div class="product--grid__unit"><i class="fa-solid fa-circle-xmark"></i></div>
+        </div>
+        <div class="products--grid__row">
+            <div class="product--details">
+                <img src="img/shopping--card_two.png" alt="cart">
+                <div class="product--specs__wrap">
+                    <div class="products--name">
+                        Mango People T-shirt
+                    </div>
+                    <div class="product--specs">
+                        Color: <span>Red</span>
+                        <br>
+                        Size: <span>Xll</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product--grid__unit">$150</div>
+            <div class="product--grid__unit"><input type="text" placeholder="2"></div>
+            <div class="product--grid__unit">FREE</div>
+            <div class="product--grid__unit">$300</div>
+            <div class="product--grid__unit"><i class="fa-solid fa-circle-xmark"></i></div>
+        </div>
+        <div class="products--grid__row">
+            <div class="product--details">
+                <img src="img/shopping--card_three.png" alt="cart">
+                <div class="product--specs__wrap">
+                    <div class="products--name">
+                        Mango People T-shirt
+                    </div>
+                    <div class="product--specs">
+                        Color: <span>Red</span>
+                        <br>
+                        Size: <span>Xll</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product--grid__unit">$150</div>
+            <div class="product--grid__unit"><input type="text" placeholder="2"></div>
+            <div class="product--grid__unit">FREE</div>
+            <div class="product--grid__unit">$300</div>
+            <div class="product--grid__unit"><i class="fa-solid fa-circle-xmark"></i></div>
+        </div>
+    </div>
+    <div class="container btn--shopping__cart">
+        <div class="top--btn__shopping_cart">
+            <button>СLEAR SHOPPING CART</button>
+            <button>CONTINUE SHOPPING</button>
+        </div>
+        <div class="bottom--btn__shopping_cart">
+            <div class="shipping--Address">
+                <div class="bottom--label">
+                    Shipping Adress
+                </div>
+                <input id="city" list="cities" class="shopping--cart__input" type="text" placeholder="Bangladesh">
+                <datalist id="cities">
+                    <option label="London" value="London">
+                    <option label="Paris" value="Paris">
+                    <option label="New York" value="New York">
+                    <option label="Dubai" value="Dubai">
+                    <option label="Tokyo" value="Tokyo">
+                    <option label="Los Angeles" value="Los Angeles">
+                    <option label="Singapore" value="Singapore">
+                </datalist>
+                <br>
+                <input class="shopping--cart__input" type="text" placeholder="State">
+                <br>
+                <input class="shopping--cart__input" type="text" placeholder="Postcode / Zip">
+                <br>
+                <button class="bottom--label__btn">get a quote</button>
+            </div>
+            <div class="coupon--discount">
+                <div class="bottom--label">
+                    coupon discount
+                </div>
+                <div class="about--btn__shopping_cart">
+                    Enter your coupon code if you have one
+                </div>
+                <input class="shopping--cart__input" type="text" placeholder="Coupon  Discount">
+                <br>
+                <button>Apply coupon</button>
+            </div>
+            <div class="checkout">
+                <div class="total">
+                    <div class="total--Top">
+                        Sub total <span>$900</span>
+                    </div>
+                    <div class="total--Bottom">
+                        GRAND TOTAL <span>$900</span>
+                    </div>
+                </div>
+                <div class="line--checkout__flex">
+                    <div class="line--checkout">
+
+                    </div>
+                </div>
+                <div class="btn--checkout">
+                    <button>proceed to checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="reviewAndSubscribe">
+        <div class="container">
+            <div class="reviews">
+                <div class="reviewsInside">
+                    <img src="img/reviewPerson.png" alt="photo">
+                    <div class="reviewsContent">
+                        <div class="reviewsText">
+                            “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                            a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+                        </div>
+                        <div class="reviewsName">
+                            Bin Burhan
+                        </div>
+                        <div class="reviewsCity">
+                            Dhaka, Bd
+                        </div>
+                        <div class="reviewsSwitcher">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe">
+                <div class="subscribeHeading">SUBSCRIBE</div>
+                <div class="subscribeText">FOR OUR NEWLETTER AND PROMOTION</div>
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Enter Your Email">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer container">
+        <div class="aboutBrand">
+            <a href="" class="logo">BRAN<span class="wordDLogo">D</span></a>
+            <div class="aboutBrandText">
+                <div class="aboutBrandTextTop">Objectively transition extensive data rather than cross functional
+                    solutions. Monotonectally syndicate
+                    multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of
+                    processes and cross-unit partnerships.
+                </div>
+                <div class="aboutBrandTextBottom">Efficiently plagiarize 24/365 action items and focused infomediaries.
+                    Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+                </div>
+            </div>
+        </div>
+        <div class="companyList">
+            <div class="companyListHeading">
+                COMPANY
+            </div>
+            <div class="companyListNavigation">
+                <div><a href="#">Home</a></div>
+                <div><a href="#">Shop</a></div>
+                <div><a href="#">About</a></div>
+                <div><a href="#">How It Works</a></div>
+                <div><a href="#">Contact</a></div>
+            </div>
+        </div>
+        <div class="informationList">
+            <div class="companyListHeading">
+                INFORMATION
+            </div>
+            <div class="companyListNavigation">
+                <div><a href="#">Tearms & Condition</a></div>
+                <div><a href="#">Privacy Policy</a></div>
+                <div><a href="#">How to Buy</a></div>
+                <div><a href="#">How to Sell</a></div>
+                <div><a href="#">Promotion</a></div>
+            </div>
+        </div>
+        <div class="shopCategoryList">
+            <div class="companyListHeading">
+                SHOP CATEGORY
+            </div>
+            <div class="companyListNavigation">
+                <div><a href="#">Men</a></div>
+                <div><a href="#">Women</a></div>
+                <div><a href="#">Child</a></div>
+                <div><a href="#">Apparel</a></div>
+                <div><a href="#">Brows All</a></div>
+            </div>
+        </div>
+    </footer>
+    <div class="rightsFooter">
+        <div class="container">
+            <div class="flexRights">
+                <div class="rightsFooterLeft">
+                    <div class="rightsFooterText">
+                        &copy; 2017 Brand All Rights Reserved.
+                    </div>
+                </div>
+                <div class="rightsFooterRight">
+                    <div class="rightsFooterIcons">
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-square"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
