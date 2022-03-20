@@ -11,10 +11,18 @@ body {
     border-bottom: solid 1px #ececec;
 }
 
+.header a:hover {
+    color: inherit;
+}
+
 .header .container {
     height: inherit;
     display: flex;
     align-items: center;
+}
+
+.aboutBrand a:hover {
+    color: inherit;
 }
 
 .container {
@@ -127,6 +135,7 @@ body {
 
 .topNav a:hover {
     border-bottom: 3px solid #ef5b70;
+    color: #222;
 }
 
 .topNav a:not(:last-child) {
@@ -1016,4 +1025,56 @@ body {
         justify-content: center;
     }
 
+}
+
+.carousel--Wrap {
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    .slide--Left,
+    .slide--Right {
+        position: absolute;
+        top: calc(50% - 47px / 2);
+        font-size: 24px;
+        color: #fff;
+        width: 47px;
+        height: 47px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #d8d8d8;
+    }
+
+    .slide--Right {
+        right: 0;
+    }
+}
+
+.container--Mini--women {
+    width: 642px;
+    margin: 0 auto;
+}
+
+.product--Details {
+    position: relative;
+    height: 730px;
+    margin-top: -86px;
+    border: solid 1px #eaeaea;
+    background-color: #fff;
+
+    .women--Collection--info {}
+
+    .women--Collection--info h4 {
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 73px;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.71;
+        color: #f16d7f;
+    }
 }
