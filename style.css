@@ -1180,7 +1180,7 @@ body {
 
 .product--Details {
   position: relative;
-  height: 730px;
+  height: 809px;
   margin-top: -86px;
   border: solid 1px #eaeaea;
   background-color: #fff;
@@ -1300,6 +1300,7 @@ body {
   border: solid 1px #ef5b70;
   background-color: #fff;
   margin-top: 28px;
+  cursor: pointer;
 }
 
 .product--Details .add--To--cart img {
@@ -1358,5 +1359,18 @@ body {
   height: 3px;
   width: 63px;
   background-color: #ef5b70;
+}
+
+.you--May--like__olso {
+  margin-top: 119px;
+}
+
+.you--May--like__olso h2 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 0.83;
+  text-align: center;
+  color: #4d4d4d;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */
