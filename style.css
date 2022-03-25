@@ -10,6 +10,10 @@ body {
   border-bottom: solid 1px #ececec;
 }
 
+.header a:hover {
+  color: inherit;
+}
+
 .header .container {
   height: inherit;
   display: -webkit-box;
@@ -18,6 +22,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.aboutBrand a:hover {
+  color: inherit;
 }
 
 .container {
@@ -143,6 +151,7 @@ body {
 
 .topNav a:hover {
   border-bottom: 3px solid #ef5b70;
+  color: #222;
 }
 
 .topNav a:not(:last-child) {
@@ -1130,5 +1139,238 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.carousel--Wrap {
+  position: relative;
+}
+
+.carousel--Wrap img {
+  width: 100%;
+}
+
+.carousel--Wrap .slide--Left,
+.carousel--Wrap .slide--Right {
+  position: absolute;
+  top: calc(50% - 47px / 2);
+  font-size: 24px;
+  color: #fff;
+  width: 47px;
+  height: 47px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d8d8d8;
+}
+
+.carousel--Wrap .slide--Right {
+  right: 0;
+}
+
+.container--Mini--women {
+  width: 642px;
+  margin: 0 auto;
+}
+
+.product--Details {
+  position: relative;
+  height: 809px;
+  margin-top: -86px;
+  border: solid 1px #eaeaea;
+  background-color: #fff;
+}
+
+.product--Details .women--Collection--info .description--Women--collection {
+  margin-top: 67px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.71;
+  text-align: center;
+  color: #5e5e5e;
+}
+
+.product--Details .women--Collection--info .about--Product--women {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product--Details .women--Collection--info .about--Product--women p {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.71;
+  color: #b9b9b9;
+}
+
+.product--Details .women--Collection--info .about--Product--women span {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.71;
+  color: #2f2f2f;
+}
+
+.product--Details .women--Collection--info .price--Product--women {
+  margin-top: 37px;
+  margin-bottom: 43px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  color: #ef5b70;
+}
+
+.product--Details .women--Collection--form {
+  width: 537px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product--Details .women--Collection--form label {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.71;
+  color: #2f2f2f;
+}
+
+.product--Details .women--Collection--form select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: url(img/selectCaret.png) no-repeat right 10px center, white;
+}
+
+.product--Details .women--Collection--form select,
+.product--Details .women--Collection--form input {
+  width: 165px;
+  height: 35px;
+  border: solid 1px #eaeaea;
+  background-color: #fff;
+  outline: none;
+  margin-top: 16px;
+  font-family: inherit;
+  color: #bcbcbc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 8px 15px;
+}
+
+.product--Details .women--Collection--form #Product--Color {
+  padding-left: 37px;
+  background: url(img/red.jpg) no-repeat 14px center, url(img/selectCaret.png) no-repeat right 10px center, white;
+}
+
+.product--Details .add--To--cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 537px;
+  margin: 0 auto;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ef5b70;
+  outline: none;
+  height: 55px;
+  border: solid 1px #ef5b70;
+  background-color: #fff;
+  margin-top: 28px;
+  cursor: pointer;
+}
+
+.product--Details .add--To--cart img {
+  margin-right: 15px;
+}
+
+.product--Details .women--Collection--info h4 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 73px;
+  margin-bottom: 15px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.71;
+  color: #f16d7f;
+}
+
+.product--Details .line--Before--form {
+  width: 642px;
+  height: 1px;
+  background-color: #eaeaea;
+  margin-bottom: 63px;
+}
+
+.product--Details .women--Collection--info h2 {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.33;
+  color: #4d4d4d;
+  text-transform: uppercase;
+  margin-top: 18px;
+  text-align: center;
+}
+
+.pink--Lines {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pink--Lines .un--Active {
+  width: 42px;
+  height: 1px;
+  background-color: #eaeaea;
+}
+
+.pink--Lines .active--Women {
+  height: 3px;
+  width: 63px;
+  background-color: #ef5b70;
+}
+
+.you--May--like__olso {
+  margin-top: 119px;
+}
+
+.you--May--like__olso h2 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 0.83;
+  text-align: center;
+  color: #4d4d4d;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */

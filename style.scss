@@ -11,10 +11,18 @@ body {
     border-bottom: solid 1px #ececec;
 }
 
+.header a:hover {
+    color: inherit;
+}
+
 .header .container {
     height: inherit;
     display: flex;
     align-items: center;
+}
+
+.aboutBrand a:hover {
+    color: inherit;
 }
 
 .container {
@@ -127,6 +135,7 @@ body {
 
 .topNav a:hover {
     border-bottom: 3px solid #ef5b70;
+    color: #222;
 }
 
 .topNav a:not(:last-child) {
@@ -1014,6 +1023,219 @@ body {
     .line--checkout__flex {
         display: flex;
         justify-content: center;
+    }
+
+}
+
+.carousel--Wrap {
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    .slide--Left,
+    .slide--Right {
+        position: absolute;
+        top: calc(50% - 47px / 2);
+        font-size: 24px;
+        color: #fff;
+        width: 47px;
+        height: 47px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #d8d8d8;
+    }
+
+    .slide--Right {
+        right: 0;
+    }
+}
+
+.container--Mini--women {
+    width: 642px;
+    margin: 0 auto;
+}
+
+.product--Details {
+    position: relative;
+    height: 809px;
+    margin-top: -86px;
+    border: solid 1px #eaeaea;
+    background-color: #fff;
+
+    .women--Collection--info {
+
+        .description--Women--collection {
+            margin-top: 67px;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.71;
+            text-align: center;
+            color: #5e5e5e;
+        }
+
+        .about--Product--women {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            p {
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 1.71;
+                color: #b9b9b9;
+            }
+
+            span {
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 1.71;
+                color: #2f2f2f;
+            }
+        }
+
+        .price--Product--women {
+            margin-top: 37px;
+            margin-bottom: 43px;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 1;
+            text-align: center;
+            color: #ef5b70;
+        }
+    }
+
+    .women--Collection--form {
+        width: 537px;
+        margin: 0 auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        label {
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 1.71;
+            color: #2f2f2f;
+        }
+
+        select {
+            appearance: none;
+            background: url(img/selectCaret.png) no-repeat right 10px center, white;
+        }
+
+        select,
+        input {
+            width: 165px;
+            height: 35px;
+            border: solid 1px #eaeaea;
+            background-color: #fff;
+            outline: none;
+            margin-top: 16px;
+            font-family: inherit;
+            color: #bcbcbc;
+            box-sizing: border-box;
+            padding: 8px 15px;
+        }
+
+        #Product--Color {
+            padding-left: 37px;
+            background:
+                url(img/red.jpg) no-repeat 14px center,
+                url(img/selectCaret.png) no-repeat right 10px center,
+                white;
+        }
+
+
+    }
+
+    .add--To--cart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 537px;
+        margin: 0 auto;
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: bold;
+        color: #ef5b70;
+        outline: none;
+        height: 55px;
+        border: solid 1px #ef5b70;
+        background-color: #fff;
+        margin-top: 28px;
+        cursor: pointer;
+
+        img {
+            margin-right: 15px;
+        }
+    }
+
+    .women--Collection--info h4 {
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 73px;
+        margin-bottom: 15px;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.71;
+        color: #f16d7f;
+
+    }
+
+    .line--Before--form {
+        width: 642px;
+        height: 1px;
+        // border: solid 1px #eaeaea;
+        background-color: #eaeaea;
+        margin-bottom: 63px;
+    }
+
+    .women--Collection--info h2 {
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 1.33;
+        color: #4d4d4d;
+        text-transform: uppercase;
+        margin-top: 18px;
+        text-align: center;
+    }
+}
+
+.pink--Lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .un--Active {
+        width: 42px;
+        height: 1px;
+        // border: solid 1px #eaeaea;
+        background-color: #eaeaea;
+    }
+
+    .active--Women {
+        height: 3px;
+        width: 63px;
+        background-color: #ef5b70;
+    }
+}
+
+.you--May--like__olso {
+    margin-top: 119px;
+
+    h2 {
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 0.83;
+        text-align: center;
+        color: #4d4d4d;
+        text-transform: uppercase;
     }
 
 }
