@@ -1,6 +1,7 @@
 .pagination--Wrap {
     display: flex;
     justify-content: space-between;
+    margin-top: 43px;
 
     @media (max-width: 469px) {
         flex-direction: column;

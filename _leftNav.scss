@@ -38,6 +38,10 @@
     font-size: 14px;
     line-height: 2.36;
     color: #6f6e6e;
+
+    &:hover {
+        color: #ef5b70;
+    }
 }
 
 .accordion-body ul {
