@@ -264,6 +264,79 @@
   color: #f16d7f;
 }
 
+.pagination--Wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 469px) {
+  .pagination--Wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 120px;
+  }
+}
+
+.pagination--Wrap .pagination {
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 260px;
+  height: 44px;
+  border-radius: 3px;
+  border: 1px solid #ebebeb;
+  color: #c4c4c4;
+}
+
+.pagination--Wrap .pagination a {
+  font-family: Lato;
+}
+
+.pagination--Wrap .pagination i {
+  color: #ef5b70 !important;
+}
+
+.pagination--Wrap .pagination a,
+.pagination--Wrap .pagination i {
+  color: #c4c4c4;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-decoration: none;
+}
+
+.pagination--Wrap .pagination a:hover,
+.pagination--Wrap .pagination i:hover {
+  color: #ef5b70;
+  cursor: pointer;
+}
+
+.pagination--Wrap button {
+  width: 150px;
+  height: 44px;
+  border-radius: 3px;
+  border: 1px solid #ef5b70;
+  background: #fff;
+  color: #ef5b70;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
 body {
   margin: 0;
   padding: 0;
