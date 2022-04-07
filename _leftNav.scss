@@ -1,0 +1,58 @@
+.topTitle {
+    background: none !important;
+    // width: 5px;
+    // height: 37px;
+    // background-color: #ef5b70;
+    border-left: 5px solid #ef5b70 !important;
+    border-bottom: 1px solid rgba(0, 0, 0, .125) !important;
+    padding: 14px 16px !important;
+    font-family: Lato !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    line-height: 1.43 !important;
+    color: #6f6e6e !important;
+    text-transform: uppercase;
+    box-shadow: none !important;
+}
+
+.accordion-item:not(:last-child) {
+    margin-bottom: 18px;
+}
+
+// .accordion-item:nth-child(1) {
+//     margin-top: 59px;
+// }
+
+.accordion-item {
+    border-bottom: none !important;
+
+}
+
+.accordion-body li {
+    list-style-type: none;
+}
+
+.accordion-body li a {
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 2.36;
+    color: #6f6e6e;
+
+    &:hover {
+        color: #ef5b70;
+    }
+}
+
+.accordion-body ul {
+    padding: 0;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+    transform: rotate(-180deg);
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-radius: 0 !important;
+}
