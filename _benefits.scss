@@ -1,0 +1,36 @@
+.benefits {
+    height: 341px;
+    margin-top: 110px;
+    margin-bottom: -97px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222224;
+
+    .flex-class {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 309px;
+    }
+
+    .benefits--Description {
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.71;
+        letter-spacing: 0.35px;
+        color: #fbfbfb;
+        margin-top: 17px;
+        text-align: center;
+    }
+
+    .benefits--Title {
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        color: #fbfbfb;
+        margin-top: 32px;
+    }
+}

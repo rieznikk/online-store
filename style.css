@@ -342,6 +342,56 @@
   line-height: 26px;
 }
 
+.benefits {
+  height: 341px;
+  margin-top: 110px;
+  margin-bottom: -97px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #222224;
+}
+
+.benefits .flex-class {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 309px;
+}
+
+.benefits .benefits--Description {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.71;
+  letter-spacing: 0.35px;
+  color: #fbfbfb;
+  margin-top: 17px;
+  text-align: center;
+}
+
+.benefits .benefits--Title {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #fbfbfb;
+  margin-top: 32px;
+}
+
 body {
   margin: 0;
   padding: 0;
