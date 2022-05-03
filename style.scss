@@ -4,6 +4,7 @@
 @import "products";
 @import "pagination";
 @import "benefits";
+@import "adaptive";
 
 $accordion-button-active-bg: #fff;
 
@@ -33,9 +34,16 @@ body {
 }
 
 .container {
-    width: 1140px !important;
+    max-width: 1140px;
     margin: 0 auto;
-    padding: 0;
+    // padding: 0;
+
+    @media (max-width: 1140px) {
+        & {
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+    }
 }
 
 .header .formHeader {
@@ -153,20 +161,49 @@ body {
 .mainPromo {
     height: 614px;
     background: #e8e8e8;
+    // min-width: 1140px;
 }
 
 .mainPromo .container {
     height: inherit;
-    background: url(img/mainPromo.png) no-repeat right 50px top 6px;
+    background: url(img/mainPromo.png);
+    background-repeat: no-repeat;
+    background-position: right 50px top 6px;
     background-size: 530px;
     display: flex;
     align-items: center;
+
+    @media (max-width: 1140px) {
+        & {
+            background-size: 300px;
+            background-position: 95% 100%;
+        }
+    }
+
+    @media (max-width: 667px) {
+        & {
+            background-size: 0;
+            justify-content: center;
+        }
+    }
 }
 
 .mainPromoText {
     height: 92px;
     border-left: 12px solid #f16d7f;
     padding-left: 12px;
+
+    @media (max-width: 1140px) {
+        & {
+            height: 82px;
+        }
+    }
+
+    @media (max-width: 667px) {
+        & {
+            height: 51px;
+        }
+    }
 }
 
 .mainPromoTextTop {
@@ -175,6 +212,18 @@ body {
     font-size: 60px;
     letter-spacing: 1.5px;
     line-height: 0.68;
+
+    @media (max-width: 1140px) {
+        & {
+            font-size: 57px;
+        }
+    }
+
+    @media (max-width: 667px) {
+        & {
+            font-size: 30px;
+        }
+    }
 }
 
 .mainPromoTextBottom {
@@ -183,6 +232,18 @@ body {
     letter-spacing: 1px;
     margin-top: 11.3px;
     color: #222;
+
+    @media (max-width: 1140px) {
+        & {
+            font-size: 32px;
+        }
+    }
+
+    @media (max-width: 667px) {
+        & {
+            font-size: 20px;
+        }
+    }
 }
 
 .mainPromoTextBottom span {
