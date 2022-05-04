@@ -1296,6 +1296,30 @@ body {
   background-position: left bottom;
 }
 
+@media (max-width: 667px) {
+  .reviewAndSubscribe {
+    margin-top: 361px;
+  }
+}
+
+@media (max-width: 424px) {
+  .reviewAndSubscribe {
+    margin-top: 418px;
+  }
+}
+
+@media (max-width: 329px) {
+  .reviewAndSubscribe {
+    margin-top: 475px;
+  }
+}
+
+@media (max-width: 286px) {
+  .reviewAndSubscribe {
+    margin-top: 505px;
+  }
+}
+
 .reviewAndSubscribe .container {
   height: inherit;
   display: -webkit-box;
@@ -1331,8 +1355,23 @@ body {
           align-items: flex-start;
 }
 
+@media (max-width: 1140px) {
+  .reviewsInside {
+    width: 90%;
+  }
+  .reviewsInside img {
+    width: 20%;
+  }
+}
+
 .reviewsContent {
   width: 386px;
+}
+
+@media (max-width: 1140px) {
+  .reviewsContent {
+    margin-left: 10px;
+  }
 }
 
 .reviewsText {
@@ -1341,6 +1380,12 @@ body {
   line-height: 1.63;
   letter-spacing: 0.4px;
   color: #222224;
+}
+
+@media (max-width: 1140px) {
+  .reviewsText {
+    font-size: 12px;
+  }
 }
 
 .reviewsName {
@@ -1371,10 +1416,23 @@ body {
           justify-content: space-between;
 }
 
+@media (max-width: 445px) {
+  .reviewsSwitcher {
+    width: 90px;
+  }
+}
+
 .reviewsSwitcher div {
   width: 38px;
   height: 4px;
   background-color: #d6d6d6;
+}
+
+@media (max-width: 445px) {
+  .reviewsSwitcher div {
+    width: 21px;
+    height: 3px;
+  }
 }
 
 .reviewsSwitcher div:hover {
@@ -1399,6 +1457,42 @@ body {
   margin-left: 92px;
 }
 
+@media (max-width: 676px) {
+  .subscribe form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 928px) {
+  .subscribe {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 533px) {
+  .subscribe {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 460px) {
+  .subscribe {
+    margin-left: 8px;
+  }
+}
+
 .subscribeHeading {
   font-size: 24px;
   letter-spacing: 0.6px;
@@ -1406,11 +1500,29 @@ body {
   margin-bottom: 8px;
 }
 
+@media (max-width: 320px) {
+  .subscribeHeading {
+    font-size: 16px;
+  }
+}
+
 .subscribeText {
   font-size: 14px;
   letter-spacing: 0.35px;
   color: #222224;
   margin-bottom: 35px;
+}
+
+@media (max-width: 928px) {
+  .subscribeText {
+    text-align: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .subscribeText {
+    font-size: 10px;
+  }
 }
 
 .subscribe input {
@@ -1429,6 +1541,40 @@ body {
   letter-spacing: 0.35px;
   color: rgba(34, 34, 36, 0.67);
   float: left;
+}
+
+@media (max-width: 1140px) {
+  .subscribe input {
+    width: 260px;
+  }
+}
+
+@media (max-width: 928px) {
+  .subscribe input {
+    width: 191px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 676px) {
+  .subscribe input {
+    width: 200px;
+    border-bottom-right-radius: 23px;
+    border-top-right-radius: 23px;
+  }
+}
+
+@media (max-width: 460px) {
+  .subscribe input {
+    width: 150px;
+  }
+}
+
+@media (max-width: 320px) {
+  .subscribe input {
+    width: 115px;
+    padding-left: 0;
+  }
 }
 
 ::-webkit-input-placeholder {
@@ -1477,6 +1623,42 @@ body {
   border-bottom-right-radius: 23px;
   border-top-right-radius: 23px;
   border: none;
+}
+
+@media (max-width: 1140px) {
+  .subscribe button {
+    width: 80px;
+  }
+}
+
+@media (max-width: 928px) {
+  .subscribe button {
+    width: 60px;
+    font-size: 11px;
+    letter-spacing: 0;
+  }
+}
+
+@media (max-width: 676px) {
+  .subscribe button {
+    width: 150px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 460px) {
+  .subscribe button {
+    width: 100px;
+  }
+}
+
+@media (max-width: 320px) {
+  .subscribe button {
+    width: 85px;
+    height: 28px;
+  }
 }
 
 .footer {
