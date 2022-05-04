@@ -433,6 +433,13 @@ body {
   }
 }
 
+@media (max-width: 320px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 .header .formHeader {
   height: 38px;
   display: -webkit-box;
@@ -876,6 +883,12 @@ body {
   margin-top: 100px;
 }
 
+@media (max-width: 1140px) {
+  .featuredItemsWrap {
+    margin-top: 60px;
+  }
+}
+
 .featuredItemHeading {
   font-size: 30px;
   font-weight: bold;
@@ -947,6 +960,31 @@ body {
   margin-top: 60px;
 }
 
+@media (max-width: 1140px) {
+  .featuredItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 685px) {
+  .featuredItems {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .featuredItems:after {
   display: block;
   content: '';
@@ -960,12 +998,37 @@ body {
   float: left;
 }
 
-.featuredItem:not(:nth-child(4n)) {
-  margin-right: 32px;
+@media (min-width: 1141px) {
+  .featuredItem:nth-child(n+5) {
+    margin-top: 39px;
+  }
+  .featuredItem:not(:nth-child(4n)) {
+    margin-right: 32px;
+  }
 }
 
-.featuredItem:nth-child(n+5) {
-  margin-top: 39px;
+@media (max-width: 1140px) and (min-width: 887px) {
+  .featuredItem:not(:nth-child(3n)) {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 886px) and (min-width: 686px) {
+  .featuredItem:not(:nth-child(2n)) {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 685px) {
+  .featuredItem {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1140px) {
+  .featuredItem:not(:nth-child(n4)) {
+    margin-right: 20px;
+  }
 }
 
 .featuredItem:hover .featuredDarkness {
@@ -1021,6 +1084,12 @@ body {
           align-items: center;
   padding: 0;
   margin: 58px auto 113px;
+}
+
+@media (max-width: 1140px) {
+  .featuredBtn {
+    margin: 30px auto 113px;
+  }
 }
 
 .featuredBtn img {

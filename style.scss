@@ -44,6 +44,13 @@ body {
             padding-right: 32px;
         }
     }
+
+    @media (max-width: 320px) {
+        & {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
 }
 
 .header .formHeader {
@@ -456,6 +463,13 @@ body {
 
 .featuredItemsWrap {
     margin-top: 100px;
+
+    @media (max-width: 1140px) {
+        & {
+            margin-top: 60px;
+        }
+    }
+
 }
 
 .featuredItemHeading {
@@ -519,6 +533,21 @@ body {
 
 .featuredItems {
     margin-top: 60px;
+
+    @media (max-width:1140px) {
+        & {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    @media (max-width: 685px) {
+        & {
+            flex-direction: column;
+        }
+    }
 }
 
 .featuredItems:after {
@@ -532,14 +561,72 @@ body {
     width: 261px;
     background-color: #fff;
     float: left;
-}
 
-.featuredItem:not(:nth-child(4n)) {
-    margin-right: 32px;
-}
+    @media (min-width: 1141px) {
+        &:nth-child(n+5) {
+            margin-top: 39px;
+        }
 
-.featuredItem:nth-child(n+5) {
-    margin-top: 39px;
+        &:not(:nth-child(4n)) {
+            margin-right: 32px;
+        }
+    }
+
+    @media (max-width:1140px) and (min-width: 887px) {
+        &:not(:nth-child(3n)) {
+            margin-right: 20px;
+        }
+    }
+
+    @media (max-width: 886px) and (min-width: 686px) {
+        &:not(:nth-child(2n)) {
+            margin-right: 20px;
+        }
+    }
+
+    @media (max-width: 685px) {
+        & {
+            margin-right: 0;
+        }
+    }
+
+    // @media (max-width: 1140px) {
+    //     &:not(:nth-child(3n)) {
+    //         margin-right: 20px;
+    //     }
+
+    //     &:nth-child(n+4) {
+    //         margin-top: 20px;
+    //     }
+    // }
+
+    // @media (max-width:886px) {
+    //     &:nth-child(3n) {
+    //         margin-right: 15px;
+    //     }
+    // }
+
+    // @media (max-width:918px) {
+    //     &:nth-child(n+4) {
+    //         margin-top: 0;
+    //     }
+    // }
+
+    // @media (max-width: 625px) {
+    //     &:not(:nth-child(3n)) {
+    //         margin-right: 0;
+    //     }
+
+    //     &:not(:nth-child(4n)) {
+    //         margin-right: 0;
+    //     }
+    // }
+
+    @media (max-width:1140px) {
+        &:not(:nth-child(n4)) {
+            margin-right: 20px;
+        }
+    }
 }
 
 .featuredItem:hover .featuredDarkness {
@@ -585,6 +672,12 @@ body {
     align-items: center;
     padding: 0;
     margin: 58px auto 113px;
+
+    @media (max-width:1140px) {
+        & {
+            margin: 30px auto 113px;
+        }
+    }
 }
 
 .featuredBtn img {
