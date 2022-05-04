@@ -1674,6 +1674,46 @@ body {
           justify-content: space-between;
 }
 
+@media (max-width: 740px) {
+  .footer {
+    padding-top: 0;
+    margin-top: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 350px) {
+  .footer {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 740px) {
+  .aboutBrand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .aboutBrand {
+    padding-left: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+
 .aboutBrandText {
   width: 427px;
   margin-top: 29px;
@@ -1682,6 +1722,19 @@ body {
   line-height: 1.71;
   letter-spacing: 0.35px;
   color: #898989;
+}
+
+@media (max-width: 954px) {
+  .aboutBrandText {
+    width: 320px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 325px) {
+  .aboutBrandText {
+    width: 100%;
+  }
 }
 
 .aboutBrandTextBottom {
@@ -1700,10 +1753,34 @@ body {
   margin-bottom: 58px;
 }
 
+@media (max-width: 805px) {
+  .companyListHeading {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 740px) {
+  .companyListHeading {
+    margin-bottom: 20px;
+  }
+}
+
 .companyListNavigation {
   font-size: 16px;
   letter-spacing: 0.4px;
   color: #898989;
+}
+
+@media (max-width: 954px) {
+  .companyListNavigation {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 805px) {
+  .companyListNavigation {
+    font-size: 13px;
+  }
 }
 
 .companyListNavigation div a {
@@ -1715,9 +1792,42 @@ body {
   margin-bottom: 20px;
 }
 
+@media (max-width: 395px) {
+  .shopCategoryList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
 .rightsFooter {
   height: 79px;
   background-color: #e6e6e6;
+}
+
+@media (max-width: 740px) {
+  .rightsFooter {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 395px) {
+  .rightsFooter {
+    margin-top: 290px;
+    height: auto;
+  }
 }
 
 .rightsFooterText {
@@ -1726,6 +1836,12 @@ body {
   letter-spacing: 0.4px;
   color: #7a7a7a;
   height: inherit;
+}
+
+@media (max-width: 667px) {
+  .rightsFooterText {
+    font-size: 12px;
+  }
 }
 
 .flexRights {
@@ -1738,11 +1854,29 @@ body {
   height: inherit;
 }
 
+@media (max-width: 390px) {
+  .flexRights {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .rightsFooterIcons i {
   font-size: 32px;
   margin-top: 24px;
   margin-bottom: 24px;
   color: #fff;
+}
+
+@media (max-width: 667px) {
+  .rightsFooterIcons i {
+    font-size: 24px;
+  }
 }
 
 .rightsFooterIcons a {
