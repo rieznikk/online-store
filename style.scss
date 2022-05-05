@@ -67,6 +67,54 @@ body {
     border-radius: 3px;
     margin-left: 37px;
     overflow: hidden;
+
+    @media (max-width: 780px) {
+        margin-left: 300px;
+    }
+
+    @media (max-width: 780px) {
+        margin-left: 270px;
+    }
+
+    @media (max-width: 735px) {
+        margin-left: 235px;
+    }
+
+    @media (max-width: 700px) {
+        margin-left: 200px;
+    }
+
+    @media (max-width: 660px) {
+        margin-left: 170px;
+    }
+
+    @media (max-width: 630px) {
+        margin-left: 140px;
+    }
+
+    @media (max-width: 600px) {
+        margin-left: 130px;
+    }
+
+    @media (max-width: 570px) {
+        margin-left: 105px;
+    }
+
+    @media (max-width: 566px) {
+        margin-left: 85px;
+    }
+
+    @media (max-width: 547px) {
+        margin-left: 50px;
+    }
+
+    @media (max-width: 514px) {
+        margin-left: 20px;
+    }
+
+    @media (max-width: 485px) {
+        border: none;
+    }
 }
 
 .logo {
@@ -83,6 +131,43 @@ body {
     line-height: 32px;
     letter-spacing: 0.68px;
     color: #222;
+
+    @media (max-width: 375px) {
+        font-size: 15px;
+        padding-left: 50px;
+        background-size: 36%;
+        background-position-x: 0px;
+        background-position-y: center;
+    }
+
+    .wordDLogo {
+        font-weight: 900;
+        color: #f16d7f;
+    }
+}
+
+.FooterLogo {
+    background: url(img/logo.png) no-repeat;
+    width: 165px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    padding-left: 72px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.68px;
+    color: #222;
+
+    @media (max-width: 375px) {
+        font-size: 25px;
+        padding-left: 60px;
+        background-size: 33%;
+        background-position-x: 0px;
+        background-position-y: center;
+    }
 
     .wordDLogo {
         font-weight: 900;
@@ -102,6 +187,10 @@ body {
     line-height: 2.29;
     letter-spacing: 0.35px;
     color: #222;
+
+    @media (max-width: 780px) {
+        display: none;
+    }
 }
 
 .browseHeader i {
@@ -112,6 +201,10 @@ body {
     border: none;
     padding: 14px 16px;
     font-family: inherit;
+
+    @media (max-width: 780px) {
+        display: none;
+    }
 }
 
 .header .formHeader button {
@@ -120,6 +213,10 @@ body {
     border-left: solid 1px #e6e6e6;
     color: #a4a4a4;
     background: none;
+
+    @media (max-width: 485px) {
+        display: none;
+    }
 }
 
 // .cartHead {
@@ -145,12 +242,17 @@ body {
 
 .accountBtn i {
     margin-left: 8px;
+
+    @media (max-width: 418px) {
+        display: none;
+    }
 }
 
 .topNav {
-    height: 51px;
+    height: auto;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .topNav a {
@@ -161,6 +263,11 @@ body {
     text-transform: uppercase;
     color: #222;
     border-bottom: 3px solid transparent;
+
+    @media (max-width:466px) {
+        font-weight: normal;
+        font-size: 15px;
+    }
 }
 
 .topNav a:hover {
@@ -170,6 +277,10 @@ body {
 
 .topNav a:not(:last-child) {
     margin-right: 40px;
+
+    @media (max-width:466px) {
+        margin-right: 10px;
+    }
 }
 
 .mainPromo {
@@ -1182,11 +1293,6 @@ body {
         flex-direction: column;
         width: 100%;
         margin-bottom: 20px;
-    }
-
-    @media (max-width: 350px) {
-        padding-left: 20px;
-        box-sizing: border-box;
     }
 }
 

@@ -451,6 +451,78 @@ body {
   overflow: hidden;
 }
 
+@media (max-width: 780px) {
+  .header .formHeader {
+    margin-left: 300px;
+  }
+}
+
+@media (max-width: 780px) {
+  .header .formHeader {
+    margin-left: 270px;
+  }
+}
+
+@media (max-width: 735px) {
+  .header .formHeader {
+    margin-left: 235px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header .formHeader {
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 660px) {
+  .header .formHeader {
+    margin-left: 170px;
+  }
+}
+
+@media (max-width: 630px) {
+  .header .formHeader {
+    margin-left: 140px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header .formHeader {
+    margin-left: 130px;
+  }
+}
+
+@media (max-width: 570px) {
+  .header .formHeader {
+    margin-left: 105px;
+  }
+}
+
+@media (max-width: 566px) {
+  .header .formHeader {
+    margin-left: 85px;
+  }
+}
+
+@media (max-width: 547px) {
+  .header .formHeader {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 514px) {
+  .header .formHeader {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 485px) {
+  .header .formHeader {
+    border: none;
+  }
+}
+
 .logo {
   background: url(img/logo.png) no-repeat;
   width: 165px;
@@ -472,7 +544,53 @@ body {
   color: #222;
 }
 
+@media (max-width: 375px) {
+  .logo {
+    font-size: 15px;
+    padding-left: 50px;
+    background-size: 36%;
+    background-position-x: 0px;
+    background-position-y: center;
+  }
+}
+
 .logo .wordDLogo {
+  font-weight: 900;
+  color: #f16d7f;
+}
+
+.FooterLogo {
+  background: url(img/logo.png) no-repeat;
+  width: 165px;
+  height: 51px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 72px;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0.68px;
+  color: #222;
+}
+
+@media (max-width: 375px) {
+  .FooterLogo {
+    font-size: 25px;
+    padding-left: 60px;
+    background-size: 33%;
+    background-position-x: 0px;
+    background-position-y: center;
+  }
+}
+
+.FooterLogo .wordDLogo {
   font-weight: 900;
   color: #f16d7f;
 }
@@ -498,6 +616,12 @@ body {
   color: #222;
 }
 
+@media (max-width: 780px) {
+  .browseHeader {
+    display: none;
+  }
+}
+
 .browseHeader i {
   margin-left: 8px;
 }
@@ -508,12 +632,24 @@ body {
   font-family: inherit;
 }
 
+@media (max-width: 780px) {
+  .header .formHeader input {
+    display: none;
+  }
+}
+
 .header .formHeader button {
   width: 35px;
   border: none;
   border-left: solid 1px #e6e6e6;
   color: #a4a4a4;
   background: none;
+}
+
+@media (max-width: 485px) {
+  .header .formHeader button {
+    display: none;
+  }
 }
 
 .cart--Link {
@@ -536,14 +672,22 @@ body {
   margin-left: 8px;
 }
 
+@media (max-width: 418px) {
+  .accountBtn i {
+    display: none;
+  }
+}
+
 .topNav {
-  height: 51px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .topNav a {
@@ -556,6 +700,13 @@ body {
   border-bottom: 3px solid transparent;
 }
 
+@media (max-width: 466px) {
+  .topNav a {
+    font-weight: normal;
+    font-size: 15px;
+  }
+}
+
 .topNav a:hover {
   border-bottom: 3px solid #ef5b70;
   color: #222;
@@ -563,6 +714,12 @@ body {
 
 .topNav a:not(:last-child) {
   margin-right: 40px;
+}
+
+@media (max-width: 466px) {
+  .topNav a:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .mainPromo {
@@ -1703,14 +1860,6 @@ body {
             flex-direction: column;
     width: 100%;
     margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 350px) {
-  .aboutBrand {
-    padding-left: 20px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
   }
 }
 
