@@ -15,6 +15,11 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .header {
     height: 100px;
     border-bottom: solid 1px #ececec;
@@ -231,14 +236,19 @@ body {
 }
 
 .accountBtn {
+    color: #fff;
     width: 130px;
     height: 38px;
     background-color: #f16d7f;
     font-size: 15px;
     line-height: 2.13;
     letter-spacing: 0.38px;
-    color: #fff;
     border: none;
+    text-decoration: none;
+}
+
+.accountBtn-a {
+    color: white;
 }
 
 .accountBtn i {

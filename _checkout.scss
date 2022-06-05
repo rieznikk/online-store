@@ -1,6 +1,32 @@
 .checkout {
     margin-top: 89px;
 
+    a {
+        text-decoration: none;
+    }
+
+    .line {
+        margin-top: 79px;
+        background-color: #e8e8e8;
+        height: 1px;
+    }
+
+    .checkout-menu {
+        height: 72px;
+        // border-top: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8;
+        display: flex;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: bold;
+            color: #222;
+        }
+    }
+
     .checkout-shipping__adress {
         display: flex;
         justify-content: space-between;
