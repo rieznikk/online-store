@@ -392,6 +392,135 @@
   margin-top: 32px;
 }
 
+.checkout {
+  margin-top: 89px;
+}
+
+.checkout .checkout-shipping__adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.checkout .checkout-shipping__adress___flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.checkout .log-in__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.checkout .log-in__flex form input {
+  width: 390px;
+  height: 45px;
+  border: solid 1px #eaeaea;
+  background-color: #fff;
+  outline: none;
+  margin-top: 16px;
+}
+
+.checkout .log-in__flex form label {
+  display: inline-block;
+  margin-top: 27px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.67;
+  color: #222;
+  text-transform: uppercase;
+}
+
+.checkout .log-in__flex form .required {
+  color: #ff0d0d;
+}
+
+.checkout .log-in__flex form .required-error {
+  font-family: Lato;
+  margin-top: 22px;
+  font-size: 13px;
+  line-height: 1.54;
+  color: #ff0d0d;
+  display: inline-block;
+}
+
+.checkout .log-in__flex form a {
+  margin-left: 32px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.43;
+  color: #222;
+  text-decoration: none;
+}
+
+.checkout h2 {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  color: #222;
+}
+
+.checkout form {
+  font-family: Lato;
+  margin-top: 39px;
+  margin-left: 20px;
+}
+
+.checkout form p {
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #222;
+  margin: 15px 0 15px 0;
+}
+
+.checkout form span {
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 1.54;
+  color: #b3b2b2;
+  margin-bottom: 34px;
+}
+
+.checkout form label {
+  font-family: Lato;
+  font-size: 12px;
+  color: #222;
+}
+
+.checkout form input#guest {
+  margin-top: 34px;
+}
+
+.checkout form input#register {
+  margin-top: 20px;
+  margin-bottom: 34px;
+}
+
+.checkout form .notes {
+  margin-top: 34px;
+  margin-bottom: 38px;
+}
+
+.checkout form button {
+  border: solid 1px #eaeaea;
+  background-color: #fff;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  color: #4a4a4a;
+  width: 180px;
+  height: 50px;
+}
+
 body {
   margin: 0;
   padding: 0;

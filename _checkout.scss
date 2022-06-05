@@ -1,0 +1,123 @@
+.checkout {
+    margin-top: 89px;
+
+    .checkout-shipping__adress {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .checkout-shipping__adress___flex {
+        display: flex;
+    }
+
+    .log-in__flex {
+        display: flex;
+
+        & form {
+            input {
+                width: 390px;
+                height: 45px;
+                border: solid 1px #eaeaea;
+                background-color: #fff;
+                outline: none;
+                margin-top: 16px;
+            }
+
+            label {
+                display: inline-block;
+                margin-top: 27px;
+                font-family: Lato;
+                font-size: 12px;
+                font-weight: bold;
+                line-height: 1.67;
+                color: #222;
+                text-transform: uppercase;
+            }
+
+            .required {
+                color: #ff0d0d;
+            }
+
+            .required-error {
+                font-family: Lato;
+                margin-top: 22px;
+                font-size: 13px;
+                line-height: 1.54;
+                color: #ff0d0d;
+                display: inline-block;
+            }
+
+            a {
+                margin-left: 32px;
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 1.43;
+                color: #222;
+                text-decoration: none;
+            }
+        }
+    }
+
+    h2 {
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: bold;
+        color: #222;
+    }
+
+    form {
+        font-family: Lato;
+        margin-top: 39px;
+        margin-left: 20px;
+
+        p {
+            font-family: inherit;
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #222;
+            margin: 15px 0 15px 0;
+        }
+
+        span {
+            font-family: inherit;
+            font-size: 13px;
+            line-height: 1.54;
+            color: #b3b2b2;
+            margin-bottom: 34px;
+        }
+
+        label {
+            font-family: Lato;
+            font-size: 12px;
+            color: #222;
+        }
+
+        input#guest {
+            margin-top: 34px;
+        }
+
+        input#register {
+            margin-top: 20px;
+            margin-bottom: 34px;
+        }
+
+        .notes {
+            margin-top: 34px;
+            margin-bottom: 38px;
+        }
+
+        button {
+            border: solid 1px #eaeaea;
+            background-color: #fff;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: bold;
+            color: #4a4a4a;
+            width: 180px;
+            height: 50px;
+        }
+    }
+
+}
